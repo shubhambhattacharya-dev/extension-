@@ -1,3 +1,20 @@
 1. what is extension?
-  ->
+  -> extension is an small software program that adds specific capabilities or castomizes your web browser's functionality.
+
+  what we need :
+
+  -html and css - for ui (popup):
+
+  -js-for logic,dom manipulation and browser api interaction
+
+ -asynchronous js- promises, async/await for  handling api calls
+
+ -web api- storage(localStronge),fetch, and event 
+
+ 2. manifesr.json-
+ key to extension 
+  - used for declare metadata,premission and components of the extension.
+
+
+
 

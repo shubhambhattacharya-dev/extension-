@@ -2,7 +2,21 @@
     "name": "Bookmark",
     "version":"1.0",
     "description":"This is a bookmark extension for youtube videos",
-    "permissions": ["storage","tabs"]
+    "manifest_version": 3,
+    "permissions": ["storage","tabs"],
+    "host_permissions": ["https://www.youtube.com/*"],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module" 
+      },
+      "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["contentScript.js"],
+        "run_at": "document_end"  
+      }],
+  
+
+
  
 
 
