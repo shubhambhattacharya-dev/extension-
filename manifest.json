@@ -1,0 +1,9 @@
+{ 
+    "name": "Bookmark",
+    "version":"1.0",
+    "description":"This is a bookmark extension for youtube videos",
+    "permissions": ["storage","tabs"]
+ 
+
+
+}
